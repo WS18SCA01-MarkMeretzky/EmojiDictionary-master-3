@@ -144,7 +144,7 @@ class EmojiTableViewController: UITableViewController {
     }
     */
     
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {   //p. 638
         super.prepare(for: segue, sender: sender);
         
         guard segue.identifier == "EditEmoji" else {
