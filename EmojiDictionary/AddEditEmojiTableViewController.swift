@@ -10,7 +10,7 @@ import UIKit;
 
 class AddEditEmojiTableViewController: UITableViewController {
     
-    var emoji: Emoji? = nil;
+    var emoji: Emoji? = nil;   //p. 638
 
     @IBOutlet weak var symbolTextField: UITextField!;
     @IBOutlet weak var nameTextField: UITextField!;
